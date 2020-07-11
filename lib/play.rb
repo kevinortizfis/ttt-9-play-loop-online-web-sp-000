@@ -40,4 +40,7 @@ def play(board)
     while board != ["X","X","X","X","X","X","X","X","X"]
       turn(board)
     end
+    while board != ["O","O","O","O","O","O","O","O","O"]
+      turn(board)
+    end
 end
