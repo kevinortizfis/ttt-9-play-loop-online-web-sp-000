@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-    while board != ["X","X","X","X","X","X","X","X","X"] || board != ["O","O","O","O","O","O","O","O","O"]
+    while board != ["X","X","X","X","X","X","X","X","X"]
       turn(board)
     end
 end
